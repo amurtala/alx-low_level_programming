@@ -1,1 +1,19 @@
 0x02. C - Functions, nested loops
+
+0. Write a program that prints _putchar,
+1. Write a function that prints the alphabet, in lowercase,
+2. Write a function that prints 10 times the alphabet, in lowercase,
+3. Write a function that checks for lowercase character,
+4. Write a function that checks for alphabetic character,
+5. Write a function that prints the sign of a number,
+6. Write a function that computes the absolute value of an integer,
+7. Write a function that prints the last digit of a number,
+8. Write a function that prints every minute of the day of Jack Bauer, starting    from 00:00 to 23:59,
+9. Write a function that prints the 9 times table, starting with 0,
+10.Write a function that adds two integers and returns the result,
+11.Write a function that prints all natural numbers from n to 98,
+12.Write a function that prints the n times table, starting with 0,
+13.Write a program that computes and prints the sum of all the multiples of 3 o   5 below 1024 (excluded),
+14.Write a program that prints the first 50 Fibonacci numbers
+15.Write a program that finds and prints the sum of the even-valued terms,
+16.Write a program that finds and prints the first 98 Fibonacci numbers
