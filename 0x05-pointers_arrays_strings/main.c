@@ -8,12 +8,9 @@
  */
 int main(void)
 {
-	int n;
+	char *str;
 
-	n = 402;
-	printf("n=%d\n", n);
-	reset_to_98(&n);
-	printf("n=%d\n", n);
+	str = "Emi0123456789";
+	puts2(str);
 	return (0);
 }
-
