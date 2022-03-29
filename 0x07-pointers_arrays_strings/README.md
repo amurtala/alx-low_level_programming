@@ -13,10 +13,11 @@ Task 4. strpbrk: a function that searches a string for any of a set of bytes
 
 Task 5. strstr: a function that locates a substring
 
-Task 6. Chess: a function that prints the chessboard
+Task 7. Chess: a function that prints the chessboard
 
-Task 7. diagonal: a function that prints the sum of the two diagonals of a
+Task 8. diagonal: a function that prints the sum of the two diagonals of a
 	a square matrix of integers
 
-Task 8. Double pointer: a function that sets the value of a pointer to a char
+Task 100. Double pointer: a function that sets the value of a pointer to a char
 
+Task 101. 
