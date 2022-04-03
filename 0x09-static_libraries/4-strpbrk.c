@@ -1,38 +1,26 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
- * _strchr - locates char in string
- * @s: pointer to string
- * @c: char to locate
+ * _strpbrk - Searches a string for any of a set of bytes
  *
- * Return: pointer to first occurence of c in s
+ * @s: Character to check
+ *
+ * @accept: Character to look for
+ *
+ * Return: Character
  */
-char *_strchr(char *s, char c)
-{
-	while (*s)
-	{
-		if (*s == c)
-			return (s);
-		s++;
-	}
-	return (NULL);
-}
 
-/**
- * _strpbrk - searches string for any of a set of bytes
- * @s: string to search
- * @accept: set of bytes to find
- *
- * Return: pointer to first matching byte or NULL
- */
 char *_strpbrk(char *s, char *accept)
 {
-	while (*s)
+	int i, k;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (_strchr(accept, *s))
-			return (s);
-		s++;
+		for (k = 0; accept[k] != '\0'; k++)
+		{
+			if (s[i] == accept[k])
+				return (s + i);
+		}
 	}
-	return (NULL);
+	return (0);
 }
