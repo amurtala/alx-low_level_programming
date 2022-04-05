@@ -1,6 +1,6 @@
 0x0B. C - malloc, free
 
-Task 0. (0-create_array.c)
+Task 0. (0-create_array.c)\n
 Float like a butterfly, sting like a bee
 Function that creates an array of chars, and initializes it with a specific char
 
